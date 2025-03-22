@@ -4,6 +4,7 @@ set -e
 # Get AWS Profile Name from command-line argument (default to 'default')
 PROFILE="${1:-default}"
 
+# Usage: ./aws_infra_setup.sh [aws_profile]
 # Set Variables
 VPC_CIDR="10.0.0.0/16"
 PUBLIC_SUBNET_CIDR="10.0.1.0/24"

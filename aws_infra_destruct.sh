@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Usage: ./aws_infra_removal.sh [aws_profile]
+# Usage: ./aws_infra_destruct.sh [aws_profile]
 PROFILE="${1:-default}"
 REGION="ap-southeast-2"
 VPC_CIDR="10.0.0.0/16"
